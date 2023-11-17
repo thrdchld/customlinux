@@ -1,0 +1,23 @@
+/* Taller or wider buttons */
+#docklike-plugin button {
+min-height: 48px;
+min-width: 72px;
+padding: 0; margin: -5px;
+}  
+
+ #docklike-plugin .hover_group { background-color: rgba(30, 144, 255, 0.5); }
+
+ #whiskermenu-button label {
+    color: lightblue;
+    font-weight: bold;}
+
+ #whiskermenu-button:hover {
+    background-color: rgba(265, 155, 0, 0.5);
+    margin-top: -2px;
+    padding-bottom: 0px; }
+
+ #whiskermenu-button:checked {
+    background-color: rgba(265, 155, 0, 0.5);            
+    margin-top: -2px;
+    padding-bottom: 0px;
+}
