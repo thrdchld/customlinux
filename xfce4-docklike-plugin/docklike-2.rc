@@ -1,5 +1,6 @@
 [user]
 showPreviews=true
+previewScale=0.3
 indicatorColorFromTheme=false
 forceIconSize=true
 iconSize=32
