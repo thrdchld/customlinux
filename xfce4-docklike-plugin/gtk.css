@@ -1,23 +1,143 @@
-/* Taller or wider buttons */
-#docklike-plugin button {
-min-height: 48px;
-min-width: 72px;
-padding: 0; margin: -5px;
-}  
+window.xfce4-panel widget > box > button > image{
+   padding: 0.2em 0.16em;  -gtk-icon-transform: scale(0.95);
+}
 
- #docklike-plugin .hover_group { background-color: rgba(30, 144, 255, 0.5); }
+#xfce4-notification-plugin image {
+	-gtk-icon-transform: scale(0.65) translateY(3px);
+}
+#pulseaudio-button image {
+	-gtk-icon-transform: scale(0.85);
+}
+#xfce4-power-manager-plugin image {
+	-gtk-icon-transform: scale(0.65);
+}
 
- #whiskermenu-button label {
-    color: lightblue;
-    font-weight: bold;}
+/*
+ WHISKERS MENU
+*/
 
- #whiskermenu-button:hover {
+window#whiskermenu-window  box widget {color: transparent;}
+
+#whiskermenu-window  * {
+    border: 0px #ccc solid;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+}
+
+window#whiskermenu-window  box {
+    padding: 3px;
+}
+
+#whiskermenu-window {
+    background-color: rgba(59,66,82,0.5);
+    color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+}
+
+#whiskermenu-window  scrollbar {
+    background: transparent;
+}
+
+#whiskermenu-window  entry {
+    background-color: rgba(59,66,82,0.5);
+    color: #ccc;
+    border: 1px rgba(255,255,255,0.35) solid;
+    padding: 5px;
+}
+
+
+#whiskermenu-window  button {
+    background-color: rgba(59,66,82,0.5);
+    color: #ccc;
+    margin:2px;
+    margin-right: 4px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: normal;
+}
+
+#whiskermenu-button:hover {
     background-color: rgba(265, 155, 0, 0.5);
     margin-top: -2px;
-    padding-bottom: 0px; }
+    padding-bottom: 0px; 
+}
 
  #whiskermenu-button:checked {
     background-color: rgba(265, 155, 0, 0.5);            
     margin-top: -2px;
     padding-bottom: 0px;
+    font-weight: bolder;
+}
+
+#docklike-plugin button {
+    min-height: 48px;
+    min-width: 72px;
+    padding: 0; margin: -5px;
+    }  
+    
+#docklike-plugin .hover_group { background-color: rgba(30, 144, 255, 0.5); }
+    
+#whiskermenu-button label {
+    font-weight: bold;
+}
+
+#whiskermenu-button {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+#whiskermenu-window  treeview {
+    background-color: rgba(59,66,82,0.5);
+    color: #ccc;
+    border-radius: 0px 0px 0px 0px;
+    margin:2px;
+    margin-right: 1px;
+    margin-left: 4px;
+    padding: 3px;
+    font-weight: normal;
+}
+
+#clock-button:hover {
+    background-color: rgba(30, 144, 255, 0.5);
+}
+
+#clock-button {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#showdesktop-button:hover {
+    background-color: rgba(30, 144, 255, 0.5);
+}
+
+#pulseaudio-button:hover {
+    background-color: rgba(30, 144, 255, 0.5);
+}
+
+#xfce4-power-manager-plugin:hover {
+    background-color: rgba(30, 144, 255, 0.5);
+}
+
+#whiskermenu-window  treeview:selected,
+#whiskermenu-window  treeview:hover,
+#whiskermenu-window  treeview:active,
+#whiskermenu-window  treeview:focus
+{
+    background-color: #6A8685;
+    color: #000000;
+    transition: 200ms;
+    border: -2px rgba(255,255,255,0.35) solid;
+}
+
+#whiskermenu-window  button:focus,
+#whiskermenu-window  button:hover,
+#whiskermenu-window  button:active,
+#whiskermenu-window  button:selected
+{
+    background-color: #6A8685;
+    color: #000000;
+    transition: 200ms;
+    border: -2px rgba(255,255,255,0.35) solid;
+    border-radius: 10px;
 }
