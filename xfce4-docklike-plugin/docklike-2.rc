@@ -1,6 +1,6 @@
 [user]
 showPreviews=true
-previewScale=0.3
+previewScale=0.2
 indicatorColorFromTheme=false
 forceIconSize=true
 iconSize=32
@@ -8,4 +8,5 @@ indicatorColor=rgb(53,132,228)
 middleButtonBehavior=1
 indicatorOrientation=1
 inactiveColor=rgb(255,255,255)
-pinned=/home/thrdchld/.local/share/applications/kitty.desktop;/usr/share/applications/thunar.desktop;/usr/share/applications/chromium-browser.desktop;/usr/share/applications/code.desktop;
+pinned=/home/thrdchld/.local/share/applications/kitty.desktop;/usr/share/applications/thunar.desktop;/usr/share/applications/chromium-browser.desktop;/usr/share/applications/firefox.desktop;/usr/share/applications/librewolf.desktop;/usr/share/applications/code.desktop;
+onlyDisplayVisible=true
