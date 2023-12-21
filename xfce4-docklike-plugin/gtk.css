@@ -68,14 +68,6 @@ window#whiskermenu-window  box {
     padding-bottom: 0px;
     font-weight: bolder;
 }
-
-#docklike-plugin button {
-    min-height: 48px;
-    min-width: 72px;
-    padding: 0; margin: -5px;
-    }  
-    
-#docklike-plugin .hover_group { background-color: rgba(30, 144, 255, 0.5); }
     
 #whiskermenu-button label {
     font-weight: bold;
@@ -98,6 +90,37 @@ window#whiskermenu-window  box {
     font-weight: normal;
 }
 
+#whiskermenu-window  treeview:selected,
+#whiskermenu-window  treeview:hover,
+#whiskermenu-window  treeview:active,
+#whiskermenu-window  treeview:focus
+{
+    background-color: rgba(30, 144, 255, 0.5);
+    transition: 200ms;
+}
+
+#whiskermenu-window  button:focus,
+#whiskermenu-window  button:hover,
+#whiskermenu-window  button:active,
+#whiskermenu-window  button:selected
+{
+    background-color: rgba(30, 144, 255, 0.5);
+    transition: 200ms;
+    border-radius: 10px;
+}
+
+/* Docklike */
+
+#docklike-plugin button {
+    min-height: 48px;
+    min-width: 64px;
+    padding: 0; margin: 0px;
+    }  
+    
+#docklike-plugin .hover_group { background-color: rgba(30, 144, 255, 0.5); }
+
+/* Other */
+
 #clock-button:hover {
     background-color: rgba(30, 144, 255, 0.5);
 }
@@ -119,25 +142,16 @@ window#whiskermenu-window  box {
     background-color: rgba(30, 144, 255, 0.5);
 }
 
-#whiskermenu-window  treeview:selected,
-#whiskermenu-window  treeview:hover,
-#whiskermenu-window  treeview:active,
-#whiskermenu-window  treeview:focus
-{
-    background-color: #6A8685;
-    color: #000000;
-    transition: 200ms;
-    border: -2px rgba(255,255,255,0.35) solid;
-}
+.xfce4-panel widget grid button.flat.toggle { 
+    padding: 0px 16px;
+  }
 
-#whiskermenu-window  button:focus,
-#whiskermenu-window  button:hover,
-#whiskermenu-window  button:active,
-#whiskermenu-window  button:selected
-{
-    background-color: #6A8685;
-    color: #000000;
-    transition: 200ms;
-    border: -2px rgba(255,255,255,0.35) solid;
-    border-radius: 10px;
-}
+.xfce4-panel widget grid button.flat.toggle:checked { 
+    border-top: 5px solid rgba(0,0,0,0.0);
+    border-bottom: 5px solid rgba(30, 144, 255, 0.5);
+  }
+
+/* #pager-1 button { background-color: red; }
+#pager-1 button:checked { background-color: green; }
+#pager-1 button:hover { background-color: yellow; } */
+
