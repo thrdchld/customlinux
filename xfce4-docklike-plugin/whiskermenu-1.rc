@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=xfce-wm-settings.desktop,xfce4-about.desktop,librewolf.desktop,org.gnome.FontManager.desktop,org.xfce.mousepad.desktop,firefox.desktop,xfce4-mime-settings.desktop,code.desktop,xfce-keyboard-settings.desktop,gpick.desktop
+recent=xfce4-file-manager.desktop,chromium-browser.desktop,xfce4-about.desktop,xfce4-terminal-emulator.desktop,xfce-wmtweaks-settings.desktop,xfce-wm-settings.desktop,librewolf.desktop,org.xfce.mousepad.desktop,xfce4-mime-settings.desktop,code.desktop
 button-title=\ Start
 button-icon=distributor-logo-ubuntu
 button-single-row=false
@@ -24,8 +24,8 @@ position-categories-horizontal=false
 stay-on-focus-out=false
 profile-shape=0
 confirm-session-command=true
-menu-width=503
-menu-height=595
+menu-width=411
+menu-height=606
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
